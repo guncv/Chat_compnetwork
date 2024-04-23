@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Chats from "./list-chat";
 import Friends from "./list-friend";
 import Groups from "./list-group";

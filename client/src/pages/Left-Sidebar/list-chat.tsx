@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { socket } from "../login";
 import { RoomDetails } from "./list-group";

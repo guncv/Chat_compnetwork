@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React, { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { socket } from "../login";
 import { useRouter } from "next/router";
-import hashString from "@/utils/hashString";
 import styles from "@/styles/style.module.css";
 import SearchIcon from "@mui/icons-material/Search";
 

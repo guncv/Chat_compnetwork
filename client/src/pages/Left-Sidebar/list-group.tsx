@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { socket } from "../login";
 import { Message } from "../Chat-Window/chat-window";
 import { useRouter } from "next/router";
